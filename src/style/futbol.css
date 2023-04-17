@@ -1,0 +1,120 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #c70039;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+tbody th {
+    padding-right: 15px;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.game-board__row {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.game-board__cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 24px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    height: calc(33.33% - 4px);
+    margin: 1px;
+    background-color: #fff;
+}
+
+.game-board__cell input {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    background: none;
+}
+
+.game-board__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    height: calc(33.33% - 4px);
+    margin: 1px;
+    padding: 10px;
+}
+
+.game-board__header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+button {
+    background: #f7f7f7;
+    color: #f7f7f7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #000000;
+  }
+
+  .player-1-button {
+    color: linear-gradient(to bottom right, #e60000, #990000);
+  }
+  
+  .player-2-button {
+    color: linear-gradient(to bottom right, #009900, #004d00);
+  }
+  
+  
+  
